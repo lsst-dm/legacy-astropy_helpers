@@ -1,0 +1,5 @@
+setupRequired(python)
+setupRequired(numpy)
+
+envPrepend(PYTHONPATH, ${PRODUCT_DIR})
+envPrepend(PYTHONPATH, ${PRODUCT_DIR}/lib/python)
